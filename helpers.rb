@@ -93,7 +93,7 @@ end
 
 def save_page(link, file, true_link) 
   mkdir!("tmp")
-  system("/opt/local/bin/links -dump " + link + " > " + file)
+  system("/usr/bin/links -dump " + link + " > " + file)
 end
 
 def cleanup(links)
